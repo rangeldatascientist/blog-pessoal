@@ -18,7 +18,7 @@ import io.jsonwebtoken.security.Keys;
 @Component
 public class JwtService {
 
-	public static final String SECRET = "598d7a47888be12610df10c6f2f4e6ee603d895d9288e0fd6ebadddd89071b4c";
+	public static final String SECRET = "c6810acac724c6b61fc878bcc53c667ce24528321540738c4c868f17e54b4d69";
 
 	private Key getSignKey() {
 		byte[] keyBytes = Decoders.BASE64.decode(SECRET);
